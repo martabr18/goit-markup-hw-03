@@ -96,6 +96,8 @@ body {
 
 /*footer */
 .link-address {
+  font-weight: normal;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-bg-text);
@@ -104,6 +106,8 @@ body {
   color: var(--white-bg-text);
 }
 .contacts {
+  font-style: normal;
+  font-weight: normal;
   color: var(--dark-bg-text);
 }
 .main-header {
