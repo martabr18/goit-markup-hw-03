@@ -35,6 +35,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-bg-text);
+  text-transform: uppercase;
 }
 .main-page {
   background-color: var(--dark-bg);
@@ -71,6 +72,8 @@ body {
   overflow: hidden;
 }
 /*header */
+.menu {
+}
 .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -82,12 +85,14 @@ body {
   color: var(--main-text--cl);
 }
 .link-nav {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text--cl);
 }
 .link-contacts {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -133,6 +138,8 @@ body {
 }
 /*portfolio main */
 .button {
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   color: var(--main-text--cl);
