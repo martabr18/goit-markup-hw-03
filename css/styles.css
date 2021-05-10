@@ -39,7 +39,7 @@ ul {
   padding-left: 0;
   list-style: none;
 }
-.section .studio {
+.studio {
   padding-bottom: 0;
 }
 .work {
@@ -328,6 +328,10 @@ ul {
   margin-top: 30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
+.portf-item:hover,
+.portf-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .main-portf {
   margin-bottom: 94px;
 }
@@ -337,6 +341,7 @@ ul {
 
 
 .social-icons {
+  
   padding-top: 16px;
   display: flex;
   justify-content: center;
@@ -347,6 +352,7 @@ ul {
   fill:#AFB1B8;
 }
 .social-icons-link {
+  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -381,6 +387,7 @@ color: #FFFFFF;
 
 .icon-header {
   stroke: currentColor;
+  fill: #757575;
   margin-right: 10px;
 }
 .contacts-item:not(:last-child) {
@@ -440,7 +447,8 @@ border-radius: 4px;
   justify-content: space-between;
   display: flex;
 }
-.clients-link-icon:hover .clients-svg {
+.clients-link-icon:hover .clients-svg, 
+.clients-link-icon:focus .clients-svg {
   fill: var(--accent-cl);
 }
 .clients-link-icon:hover {
@@ -456,7 +464,7 @@ border-radius: 4px;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 92px;
+  height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
   margin-bottom: 30px;
