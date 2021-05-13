@@ -352,14 +352,14 @@ ul {
   fill:#AFB1B8;
 }
 .social-icons-link {
-  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
 }
-.social-icons-link:hover {
+.social-icons-link:hover,
+.social-icons-link:focus {
    width: 44px;
   height: 44px;
   border-radius: 50%;
