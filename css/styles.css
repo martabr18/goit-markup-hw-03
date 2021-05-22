@@ -66,7 +66,6 @@ ul {
 }
 .features-list:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 .main-page {
   background-color: var(--dark-bg);
@@ -134,6 +133,7 @@ ul {
   display: flex;
 }
 .page-header {
+  border: 1px solid #ECECEC;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -332,9 +332,7 @@ ul {
 .portf-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.main-portf {
-  margin-bottom: 94px;
-}
+
 .header-portf {
   border-bottom: 1px solid #ECECEC;
 }
@@ -400,7 +398,6 @@ margin-left: 30px;
 }
 .adress-section {
   width: calc(100% / 12 * 3);
-  margin-right: 70px;
 }
 .social-list {
   display: inline-flex;
