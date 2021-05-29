@@ -1,0 +1,23 @@
+.icon-header {
+  stroke: currentColor;
+  fill: #757575;
+  margin-right: 10px;
+}
+.page-header .container {
+  display: flex;
+}
+.page-header {
+  border: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text--cl);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

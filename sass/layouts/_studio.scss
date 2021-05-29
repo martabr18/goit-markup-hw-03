@@ -1,0 +1,30 @@
+.studio .list {
+  display: flex;
+}
+.features-list:not(:last-child) {
+  margin-right: 30px;
+}
+.icon-studio-svg {
+  width: 70px;
+  height: 53px;
+  fill: #212121;
+}
+.studio-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
+}
+.main-header {
+  font-size: 14px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: var(--main-text--cl);
+}
+.main-text {
+  color: var(--dark-bg-text);
+}
